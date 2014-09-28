@@ -6,5 +6,5 @@ subdirectory.
 
 * **ws-nav**: the original Wintersmith theme with a navigation menu above the site title.
 
-* **ws-nav-notagline**: the original Wintersmith theme without the description tagline, and the site title (logo) and 
-the navigation menu are on the same line.
+* **ws-nav-notagline**: the original Wintersmith theme with a navigation menu and no description tagline. The site 
+title and the navigation menu are on the same line.
