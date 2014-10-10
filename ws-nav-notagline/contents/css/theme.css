@@ -1,0 +1,100 @@
+/**
+ * Wintersmith theme with navigation and no tagline
+ *
+ * Author: ipavl <https://github.com/ipavl>
+ * Date: 2014/09/28, revised 2014/10/09
+ */
+
+/* page header */
+.header {
+  margin: 1.25em 0 2.5em;
+}
+
+.header h1 {
+  /* unused */
+}
+
+.header .author {
+  /* unused */
+}
+
+.header .description {
+  /* unused */
+}
+
+#content h1 {
+  font-size: 2.6em;
+  text-align: center;
+  font-weight: 700;
+  margin: 0;
+}
+
+#content .author {
+  font-family: 'Merriweather', serif;
+  font-variant: small-caps;
+  text-transform: lowercase;
+  text-rendering: auto;
+  text-align: center;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+/* navigation */
+nav {
+  float: right;
+  margin-bottom: 0.15em;
+}
+
+nav a {
+  padding: 0.5em;
+}
+
+nav label {
+  cursor: pointer;
+}
+
+nav ul {
+  margin: 0;
+}
+
+#menu-toggle {
+  display: none;
+}
+
+@media (max-width: 690px) {
+  .header .description {
+    /* unused */
+  }
+}
+
+/* menu media queries */
+@media only screen and (max-width: 600px) {
+  #menu {
+    display: none;
+  }
+
+  #menu-toggle:checked + #menu {
+    display: block;
+  }
+
+  nav ul {
+    position: absolute;
+    right: 10;
+
+    background: #DEDEDE;
+  }
+
+  nav ul a {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  nav label {
+    display: none;
+  }
+
+  #menu {
+    display: inline;
+  }
+}
