@@ -17,10 +17,14 @@ html(lang='en')
     header.header
       div.content-wrap
         block header
-         nav
-           each item in locals.nav
-             a(href=item.url)= item.name
-         div.logo
+          nav
+            label(for="menu-toggle") Menu &#x25BE;
+            input(type="checkbox" id="menu-toggle")
+
+            ul(id="menu")
+              each item in locals.nav
+                a(href=item.url)= item.name
+          div.logo
             a(href=locals.url)= locals.name
     div#content
       div.content-wrap

@@ -129,6 +129,18 @@ nav a {
   padding: 0.5em;
 }
 
+nav label {
+  cursor: pointer;
+}
+
+nav ul {
+  margin: 0;
+}
+
+#menu-toggle {
+  display: none;
+}
+
 /* page footer */
 
 footer {
@@ -433,3 +445,22 @@ code.lang-markdown .bullet {
   }
 }
 
+@media only screen and (max-width: 600px) {
+  #menu {
+    display: none;
+  }
+
+  #menu-toggle:checked + #menu {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  nav label {
+    display: none;
+  }
+
+  #menu {
+    display: inline;
+  }
+}
