@@ -453,6 +453,17 @@ code.lang-markdown .bullet {
   #menu-toggle:checked + #menu {
     display: block;
   }
+
+  nav ul {
+    position: absolute;
+    right: 10;
+
+    background: #DEDEDE;
+  }
+
+  nav ul a {
+    display: block;
+  }
 }
 
 @media only screen and (min-width: 601px) {
