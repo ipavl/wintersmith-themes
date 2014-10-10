@@ -16,5 +16,10 @@ site title. The description tagline has also been removed. Links are defined in 
 
 ## Screenshots
 
+### Desktop
+
 ![ws-nav-notagline](screenshot.png)
+
+### Mobile
+
 ![ws-nav-notagline-mobile](screenshot-mobile.png)
